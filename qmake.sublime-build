@@ -1,0 +1,18 @@
+{
+    // To run build system through Terminus
+    "target": "teminus_open",
+    "selector": "source.c++",
+    "keyfiles" : ["*.pro"],
+
+
+    // exec Target Options
+
+    /* Currently crashes with cc1plus.exe out of memory allocation but
+    works from cmd.exe every time...
+    */
+    "working_dir": "${project_path:${folder}}",
+    "shell_cmd": "qmake && jom /NOLOGO debug",
+    "env": {
+        "PATH": "$QTDIR/bin;$QTDIR/Tools/mingw730_64/bin;C:/Qt/Tools/QtCreator/bin;$PATH",
+      },
+}

@@ -1,0 +1,43 @@
+{
+	"default_config":
+	{
+		"linux": null,
+		"osx": "Homebrew Bash",
+		"windows": "Cmder"
+	},
+	"shell_configs":
+	[
+		{
+			"name": "git-bash",
+			"cmd": ["git-bash.exe"],
+			"enable": true,
+			"env": {},
+			"platforms": ["windows"]
+		},
+		{
+		    "name": "WSL Login Shell",
+		    "cmd": "wsl.exe",
+		    "env": {},
+		    "enable": true,
+		    "platforms": ["windows"]
+		},
+		{
+			"name": "Homebrew Bash",
+			"cmd": "/usr/local/bin/bash",
+			"env": {},
+			"enable": true,
+			"platforms": ["osx"]
+		},
+		{
+		    "name": "Cmder",
+		    "cmd": ["cmd.exe", "/k", "%CMDER_ROOT%\\vendor\\init.bat"],
+		    "env": {},
+		    "enable": true,
+		    "platforms": ["windows"]
+		},
+	
+	],
+	"theme": "mariana",
+	"256color": true,
+	"unix_term": "xterm-256color",
+}

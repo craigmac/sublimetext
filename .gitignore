@@ -1,0 +1,11 @@
+Package Control.cache/
+Package Control.merged*
+Package Control.system-ca-bundle
+Package Control.user*
+Package Control.last-run
+oscrypto-ca-bundle.crt
+OverrideAudit.status
+!asciidoc/
+!OmniMarkupPreviewer/
+!Terminus/
+

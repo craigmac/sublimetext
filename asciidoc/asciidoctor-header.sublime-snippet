@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+= ${1:Article Title}
+Craig MacEachern <craig.maceachern@calian.ca>
+${2:2020-06-08}
+:toc:
+:sectanchors:
+:sectlinks:
+
+== ${3:Section Title}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>aheader</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.asciidoc</scope>
+</snippet>

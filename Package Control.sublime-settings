@@ -1,0 +1,30 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Asciidoctor",
+		"CSS3",
+		"DocBlockr",
+		"Dockerfile Syntax Highlighting",
+		"EditorConfig",
+		"Emmet",
+		"LiveReload",
+		"OmniMarkupPreviewer",
+		"Origami",
+		"Package Control",
+		"PackageDev",
+		"PackageResourceViewer",
+		"Sass",
+		"ScopeAlways",
+		"StandardFormat",
+		"SublimeLinter",
+		"SublimeLinter-contrib-standard",
+		"SublimeLinter-pylint",
+		"Terminus",
+		"TypeScript",
+	],
+}

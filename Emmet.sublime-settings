@@ -1,0 +1,6 @@
+{
+    // emmet: give back Tab key and use Ctrl-e instead
+    "disable_tab_abbreviations": true,
+    // package 'css3' recommends turn this off to work better/nicer with emmet
+    "show_css_completions": false,
+}

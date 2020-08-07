@@ -1,0 +1,34 @@
+// For all systems
+[
+    ////////////////////////
+    // Change to defaults //
+    ////////////////////////
+    {"keys": ["alt+left"], "command": "jump_back"},
+    {"keys": ["alt+right"], "command": "jump_forward"},
+
+    ////////////////////////////////////////////////////////
+    // Override packages that change defaults that I want //
+    ////////////////////////////////////////////////////////
+
+    // Origami overrides this
+    {"keys": ["ctrl+k", "ctrl+z"], "command": "revert_modification"},
+    // Emmet overrides previous_modifiction with balance_outward
+    {"keys": ["ctrl+,"], "command": "prev_modification"},
+    {"keys": ["ctrl+."], "command": "next_modification"},
+
+    // this was removed at some point bc of issues with some kbd layouts
+    {"keys": ["ctrl+alt+p"], "command": "prompt_select_workspace"},
+    {"keys": ["ctrl+alt+,"], "command": "open_file",
+        "args": {"file": "${packages}/User/Preferences.sublime-settings"}
+    },
+    // Terminus
+    // on gnome/cinnamon this is now bound to cycle between different
+    // windows of the same application group. To find if it's bound use
+    // $ gsettings list-recursively | grep -i 'grave' (Ubuntu usually)
+    // $ gsettings list-recursively | grep -i 'above' (Mint Cinnamon desktop)
+    // Unbind with:
+    // $ gsettings set org.cinnamon.desktop.keybindings.wm switch-group []
+    {"keys": ["ctrl+w"], "command": "terminus_close", "context": [{"key": "terminus_view"}]},
+    {"keys": ["alt+`"], "command": "toggle_terminus_panel"},
+
+]

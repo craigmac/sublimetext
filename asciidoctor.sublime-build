@@ -1,0 +1,5 @@
+{
+  "shell_cmd": "asciidoctor \"$file\"",
+  "selector": "source.asciidoc",
+  "file_patterns": ["*.adoc", "*.asciidoc"]
+}

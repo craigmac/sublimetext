@@ -1,0 +1,15 @@
+{
+    "selector": "text.html.basic",
+
+    "windows": {
+        "shell_cmd": "cmd /c start \"\" \"$file\"",
+    },
+
+    "linux": {
+        "shell_cmd": "xdg-open \"$file\"",
+    },
+
+    "osx": {
+        "shell_cmd": "open \"$file\"",
+    },
+}

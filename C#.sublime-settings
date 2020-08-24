@@ -1,7 +1,12 @@
 // These settings override both User and Default settings for the C# syntax
 {
     "auto_complete": true,
+    // using OmniSharp server so let it do the indexing etc.
+    "auto_complete_use_index": false,
+    // "mini_auto_complete": true,
+    // scopes to autocomplete in
     "auto_complete_selector": "source - comment",
+    // ac on these characters '.<'
     "auto_complete_triggers": [{
         "selector": "source.cs", "characters": ".<"
     }],

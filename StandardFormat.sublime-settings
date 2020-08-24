@@ -1,0 +1,5 @@
+{
+    // "extensions": ["js", "jsx", "ts", "tsx"]
+    "log_errors": true,
+    "loud_error": true
+}

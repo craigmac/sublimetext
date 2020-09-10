@@ -60,7 +60,7 @@
 	],
 	"font_face": "JetBrains Mono NL",
 	// "font_options": ["no_liga", "no_clig", "no_calt", "no_bold", "no_italic"],
-	"font_size": 13,
+	"font_size": 11,
 	"line_padding_top": 1,
 	"line_padding_bottom": 1,
 	"git_diff_target": "head",
@@ -69,13 +69,11 @@
 	// to turn it off
 	"ignored_packages": ["CSS", "TypeScript", "Vintage"],
 	// "line_numbers": false,
+	"indent_guide_options": ["draw_active", "draw_normal"],
 	"rulers": [80, 120],
 
 	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	/*"ignored_packages": [
-		"Vintage",
-	],*/
 
 	/* Sublime Text 4.0+ options changed from default */
 
@@ -86,10 +84,8 @@
 	// 4057+
 	// "mini_auto_complete": true,
 	// 4075+
-	// TODO: turn back on when github.com/sublimehq/sublime_text/issues/3579
-	// fixed
-	// "scroll_context_lines": 10,
+	"scroll_context_lines": 10,
 	// 4081+
-	// "highlight_find_results_in_scrollbar": true,
-	"color_scheme": "Packages/Solarized Color Scheme/Solarized (light).sublime-color-scheme"
+	"highlight_find_results_in_scrollbar": true,
+	"color_scheme": "Packages/Solarized Color Scheme/Solarized (light).sublime-color-scheme",
 }

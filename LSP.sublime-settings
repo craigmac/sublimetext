@@ -2,7 +2,13 @@
 {
     // only open on errors when auto show is enabled
     "auto_show_diagnostics_panel_level": 1,
-    "log_debug": true,
+    "log_debug": false,
     "log_stderr": true,
-    "log_server": [true]
+    "log_server": ["panel"],
+    "lsp_format_on_save": true,
+    "lsp_code_actions_on_save": {
+        "source.fixAll": true,
+        "source.organizeImports": true
+    },
+    "only_show_lsp_completions": true
 }

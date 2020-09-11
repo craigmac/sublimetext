@@ -2,5 +2,5 @@
     // emmet 2.0 is here, don't need previous settings now! much saner behaviour
     "telemetry": false,
     "uid": "3c181dcd-8936-4999-a795-a51016c21263",
-    "tag_preview": true
+    "tag_preview": true,
 }

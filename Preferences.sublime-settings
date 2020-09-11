@@ -58,9 +58,8 @@
     ".env",
     "obj"
   ],
-  "font_face": "JetBrains Mono NL", // no ligature variant
+  "font_face": "JetBrains Mono NL",
   "font_size": 13,
-  // recommended 1.2x lineheight (15.6px) from JetBrains Mono docs on 13px font
   "line_padding_bottom": 1,
   "line_padding_top": 1,
   "git_diff_target": "head",
@@ -89,5 +88,5 @@
   // "scroll_context_lines": 10,
   // 4081+
   // "highlight_find_results_in_scrollbar": true,
-  "color_scheme": "Packages/Solarized Color Scheme/Solarized (light).sublime-color-scheme"
+  "color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme"
 }

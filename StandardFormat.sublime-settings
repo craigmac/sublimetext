@@ -1,5 +1,6 @@
 {
-    // "extensions": ["js", "jsx", "ts", "tsx"]
+    // "extensions": ["js", "jsx", "ts", "tsx"],
     "log_errors": true,
-    "loud_error": true
+    "loud_error": true,
+    "format_on_save": true,
 }

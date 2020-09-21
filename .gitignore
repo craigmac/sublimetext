@@ -8,5 +8,5 @@ OverrideAudit.status
 !asciidoc/
 !OmniMarkupPreviewer/
 !Terminus/
-
+node_modules/
 Emmet.sublime-settings

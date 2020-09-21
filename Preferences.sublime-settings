@@ -59,7 +59,6 @@
 		"obj"
 	],
 	"font_face": "JetBrains Mono NL",
-	// "font_options": ["no_liga", "no_clig", "no_calt", "no_bold", "no_italic"],
 	"font_size": 13,
 	"line_padding_top": 1,
 	"line_padding_bottom": 1,
@@ -67,10 +66,7 @@
 	"highlight_line": true,
 	// Ignore default CSS package bc I use CSS3 from package control which says
 	// to turn it off
-	"ignored_packages": ["CSS", "Six", "TypeScript",
-		"Vintage",
-		"Vintageous",
-	],
+	"ignored_packages": ["CSS", "TypeScript", "Vintage"],
 	// "line_numbers": false,
 	"indent_guide_options": ["draw_active", "draw_normal"],
 	"rulers": [80, 120],
@@ -90,5 +86,5 @@
 	"scroll_context_lines": 10,
 	// 4081+
 	"highlight_find_results_in_scrollbar": true,
-	"color_scheme": "Packages/Solarized Color Scheme/Solarized (light).sublime-color-scheme",
+	"color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
 }

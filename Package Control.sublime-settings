@@ -12,6 +12,7 @@
 		"Dockerfile Syntax Highlighting",
 		"EditorConfig",
 		"Emmet",
+		"JsPrettier",
 		"LiveReload",
 		"LSP",
 		"LSP-css",
@@ -27,10 +28,7 @@
 		"React ES6 Snippets",
 		"Sass",
 		"ScopeAlways",
-		"Solarized Color Scheme",
-		"StandardFormat",
 		"SublimeLinter",
-		"SublimeLinter-contrib-standard",
 		"Terminus",
 	],
 }

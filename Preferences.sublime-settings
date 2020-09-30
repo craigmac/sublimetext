@@ -58,8 +58,8 @@
 		".env",
 		"obj"
 	],
-	"font_face": "JetBrains Mono NL",
-	"font_size": 13,
+	"font_face": "JetBrains Mono",
+	"font_size": 16,
 	"line_padding_top": 1,
 	"line_padding_bottom": 1,
 	"git_diff_target": "head",
@@ -67,17 +67,15 @@
 	// Ignore default CSS package bc I use CSS3 from package control which says
 	// to turn it off
 	"ignored_packages": ["CSS", "TypeScript", "Vintage"],
-	// "line_numbers": false,
 	"indent_guide_options": ["draw_active", "draw_normal"],
 	"rulers": [80, 120],
-
 	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true,
 
 	/* Sublime Text 4.0+ options changed from default */
 
 	// 4050+
-	"trim_trailing_white_space_on_save": true,
+	"trim_trailing_white_space_on_save": "all",
 	"draw_unicode_white_space": "all",
 	"auto_complete_include_snippets_when_typing": false,
 	// 4057+
@@ -86,5 +84,5 @@
 	"scroll_context_lines": 10,
 	// 4081+
 	"highlight_find_results_in_scrollbar": true,
-	"color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
+	"color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme"
 }

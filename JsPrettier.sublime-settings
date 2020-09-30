@@ -1,12 +1,6 @@
 {
     "auto_format_on_save": true,
-    "auto_format_on_save_excludes": [
-        "*.js",
-        "*.jsx",
-        "*.ts",
-        "*.tsx",
-        "*/node_modules/*"
-    ],
+    "auto_format_on_save_excludes": ["*/node_modules/*"],
     "custom_file_extensions": [
         "sublime-settings",
         "sublime-keymap",

@@ -37,7 +37,7 @@
 		},
 	
 	],
-	"theme": "solarized-light",
+	"theme": "mariana",
 	"256color": true,
 	"unix_term": "xterm-256color",
 }

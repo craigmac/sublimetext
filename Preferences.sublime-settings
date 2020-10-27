@@ -58,15 +58,14 @@
 		".env",
 		"obj"
 	],
-	"font_face": "JetBrains Mono",
+	"font_face": "Hack",
 	"font_size": 16,
-	"line_padding_top": 1,
-	"line_padding_bottom": 1,
 	"git_diff_target": "head",
 	"highlight_line": true,
 	// Ignore default CSS package bc I use CSS3 from package control which says
 	// to turn it off
-	"ignored_packages": ["CSS", "TypeScript", "Vintage"],
+	"ignored_packages": ["CSS", "Package Control", "TypeScript",		"Vintage",
+	],
 	"indent_guide_options": ["draw_active", "draw_normal"],
 	"rulers": [80, 120],
 	"theme": "Adaptive.sublime-theme",
@@ -84,5 +83,13 @@
 	"scroll_context_lines": 10,
 	// 4081+
 	"highlight_find_results_in_scrollbar": true,
-	"color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme"
+	"color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
+	"added_words":
+	[
+		"maceachern",
+		"craig",
+		"calian",
+		"folksonomy",
+		"adoc",
+	],
 }

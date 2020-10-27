@@ -64,15 +64,21 @@
 	"highlight_line": true,
 	// Ignore default CSS package bc I use CSS3 from package control which says
 	// to turn it off
-	"ignored_packages": ["CSS", "Package Control", "TypeScript",		"Vintage",
+	"ignored_packages": [
+		"CSS",
+		"Vintage",
 	],
-	"indent_guide_options": ["draw_active", "draw_normal"],
-	"rulers": [80, 120],
+	"indent_guide_options": [
+		"draw_active",
+		"draw_normal"
+	],
+	"rulers": [
+		80,
+		120
+	],
 	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true,
-
 	/* Sublime Text 4.0+ options changed from default */
-
 	// 4050+
 	"trim_trailing_white_space_on_save": "all",
 	"draw_unicode_white_space": "all",
@@ -84,12 +90,4 @@
 	// 4081+
 	"highlight_find_results_in_scrollbar": true,
 	"color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
-	"added_words":
-	[
-		"maceachern",
-		"craig",
-		"calian",
-		"folksonomy",
-		"adoc",
-	],
 }

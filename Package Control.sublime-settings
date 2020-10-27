@@ -1,9 +1,5 @@
 {
 	"bootstrapped": true,
-	"in_process_packages":
-	[
-		"Package Control",
-	],
 	"installed_packages":
 	[
 		"A File Icon",
@@ -13,10 +9,10 @@
 		"Dockerfile Syntax Highlighting",
 		"EditorConfig",
 		"Emmet",
-		"JsPrettier",
 		"LiveReload",
 		"LSP",
 		"LSP-css",
+		"LSP-dockerfile",
 		"LSP-html",
 		"LSP-json",
 		"LSP-typescript",
@@ -31,6 +27,8 @@
 		"ScopeAlways",
 		"SublimeLinter",
 		"Terminus",
-		"VimL",
+	],
+	"in_process_packages":
+	[
 	],
 }

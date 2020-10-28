@@ -26,6 +26,8 @@
 		"Sass",
 		"ScopeAlways",
 		"SublimeLinter",
+		"SublimeLinter-annotations",
+		"SublimeLinter-eslint",
 		"Terminus",
 	],
 	"in_process_packages":

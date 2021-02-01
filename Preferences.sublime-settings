@@ -58,15 +58,18 @@
 		".env",
 		"obj"
 	],
-	"font_face": "Hack",
-	"font_size": 16,
+	"font_face": "Triplicate T4c",
+	"font_options": ["no_bold","no_italic"],
+	"font_size": 18,
 	"git_diff_target": "head",
 	"highlight_line": true,
 	// Ignore default CSS package bc I use CSS3 from package control which says
 	// to turn it off
 	"ignored_packages": [
 		"CSS",
+		"LSP-typescript",
 		"Vintage",
+		"zzz A File Icon zzz",
 	],
 	"indent_guide_options": [
 		"draw_active",

@@ -3,4 +3,6 @@
     "telemetry": false,
     "uid": "3c181dcd-8936-4999-a795-a51016c21263",
     "tag_preview": true,
+    // for jsx abbrev must prefix with '<' character
+    "jsx_prefix": true,
 }

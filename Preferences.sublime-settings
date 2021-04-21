@@ -1,5 +1,6 @@
 {
 	"auto_complete_cycle": true,
+	"block_caret": false,
 	"auto_complete_commit_on_tab": true,
 	"auto_complete_with_fields": true,
 	"binary_file_patterns": [
@@ -59,9 +60,9 @@
 		"obj"
 	],
 	"font_face": "JetBrains Mono NL",
-	"font_size": 16,
+	"font_size": 12,
 	"git_diff_target": "head",
-	"highlight_line": true,
+	"highlight_line": false,
 	// Ignore default CSS package bc I use CSS3 from package control which says
 	// to turn it off
 	"ignored_packages": [
